@@ -9,6 +9,7 @@ export default defineConfig({
     resolve: {
         alias: {
             "@": resolve(__dirname, "src/"),
+            "@utils": resolve(__dirname, "src/utils"),
             "@store": resolve(__dirname, "src/store"),
             "@router": resolve(__dirname, "src/router"),
             "@assets": resolve(__dirname, "src/assets"),
